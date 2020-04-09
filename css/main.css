@@ -108,9 +108,6 @@ header nav ul li a{
 
 .main-image {
 	height: 10em;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 	clear: both;
 	background: url("../img/beans-header.jpg") no-repeat 0px 0px;
 	background-size: cover;
@@ -121,9 +118,6 @@ header nav ul li a{
 
 .main-title {
 	height: auto;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 	clear: both;
 	margin: 0 auto;
 
@@ -143,7 +137,6 @@ header nav ul li a{
 .section-three {
 	height: auto;
 	border-top: 1px solid #eee;
-	flex-flow: row wrap;
 	padding: 0.625em 0.625em;
 	width: 100%;
 }
@@ -201,5 +194,4 @@ footer span {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
  }
