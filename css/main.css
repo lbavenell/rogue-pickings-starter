@@ -35,7 +35,7 @@ h4 {
 	text-align: left;
 }
 h1 {
-	font-size: 1.875em;
+	font-size: 1.75em;
 	line-height: 2em;
 }
 h2 {
@@ -59,7 +59,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	width: 100%;
+	width: 90%;
 
 }
 
@@ -75,6 +75,8 @@ header h1 span {
 
 header nav {
 	padding: 1em 0;
+	width: 90%;
+	text-align: center;
 }
 
 header nav ul {
@@ -191,24 +193,35 @@ footer span {
 	width: 90%;
 }
 
-@media all and (min-width:768px){
+@media all and (min-width:768px) {
 	/* Tablet styles here */
+
+
 .bottom-section {
 	width: 90%;
+	justify-content: flex-start;
+	align-items: flex-start;
 }
 
 .section-one, .section-two, .section-three {
   width: 30%;
-	padding: 1em;
-	height: 11em;
+	padding: .5em;
+
+
 }
 
 }
 
 @media all and (min-width:1200px) {
+
+
 	/*Desktop styles here */
+	.container {
+		max-width: 1200px;
+	}
+
 header {
-		flex-flow: nowrap;
+	flex-flow: nowrap;
 }
 
 header nav ul {
@@ -220,6 +233,7 @@ header nav ul {
 	border-bottom: none;
 	display: flex;
 	justify-content: space-between;
+	flex-basis: auto;
 }
 
 }
